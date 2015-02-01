@@ -5,6 +5,18 @@ a {
 	text-decoration: none;
 }
 
+h1 {
+	font-size: 30px;
+	font-family: 'FoundryGridnik W01-Bold';
+	color: gold;
+}
+
+p {
+	font-size: 12px;
+	font-family:'Neuron W03 Bold';
+
+}
+
 .menu a {
 	padding-left: 10px;
 	padding-right: 10px;
@@ -61,4 +73,12 @@ filter: blur(30px);
 	margin-left: auto;	margin-right: auto;
 	width:800px;	height: 450px;	
 	margin-top: 40px;
+}
+
+.frameboy {
+	padding: 15px;
+	padding-top: 0px;
+	background-color: grey;
+	width: 160px;
+	height: 100px;
 }
