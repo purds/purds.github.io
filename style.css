@@ -1,6 +1,16 @@
 body {
 		margin: 0;
 }
+a {
+	text-decoration: none;
+}
+
+.menu a {
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
 /* .design {
 	z-index: -1;
 	position:fixed;
@@ -18,9 +28,9 @@ body {
 .menu {
 	width:500px;	margin-top: 20px;
 	margin-left: auto;	margin-right: auto;
-    text-align:center;	font-size: 20px;
-	font-family:"FoundryGridnikW01-Medium";"
-    color: grey;
+   	text-align:center;	font-size: 20px;
+font-family:"FoundryGridnikW01-Medium Regular";
+    color: grey; text-decoration: none;
     text-transform: uppercase;
 }
 
