@@ -6,10 +6,12 @@ a {
 }
 
 h1 {
+	text-transform: uppercase;
 	text-align: center;
-	margin-top: 70;
-	font-size: 30px;
-	font-family: FoundryGridnikW01-Bold;
+	margin-top: 150;
+	letter-spacing: 2px;
+	font-size: 40px;
+	font-family: FoundryGridnikW01-Medium;
 	color: rgba(244, 244, 255, 1);
 }
 
@@ -73,8 +75,8 @@ video#bgvid {
 	padding-top: 0px;
 	/* background-color:#ecfffa; */
 	background-color: red;
-	height: 183px;
-	width: 330px;
+	height: 324px;
+	width: 464px;
 	float:left;
 	background-position: center;
 	background-size: 100%;
@@ -85,20 +87,24 @@ video#bgvid {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 
+
 }
 
 .im:hover {
 	background-size: 100%;
-	background-color: white;
+	background-color: grey;
 	-webkit-transition: background-color 400ms ease-in , background-size 300ms ease-out;
 }
+
+
 .im:hover p {
 -webkit-transition: margin-top 300ms ease-out, color 700ms ease-out;
-	margin-top: 55px;
+	margin-top: 171px;
 	color:whitesmoke;
+	margin-left: 20px;
 }
 .im:hover h1 {
--webkit-transition: margin-top 500ms ease-out, color 200ms ease-out;
+-webkit-transition: margin-top 300ms ease-out, color 200ms ease-out;
 	margin-top: 55px;
 		color: rgba(0, 255, 0, 0);
 }
