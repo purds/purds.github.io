@@ -6,15 +6,19 @@ a {
 }
 
 h1 {
+	text-align: center;
+	margin-top: 70;
 	font-size: 30px;
 	font-family: FoundryGridnikW01-Bold;
-	color: rgba(5, 255, 129, 50);
+	color: rgba(244, 244, 255, 1);
 }
 
 p {
-	font-size: 12px;
-	font-family:'Neuron W03 Bold';
-
+	margin-top: 45px;
+	font-size: 16px;
+	font-family: NeuronW03-Bold;
+	letter-spacing: .1px;
+	color: rgba(0, 255, 0, 0);
 }
 
 .menu a {
@@ -23,25 +27,12 @@ p {
 
 }
 
-/* .design {
-	z-index: -1;
-	position:fixed;
-	width: 100%;
-	height: 156%;
-	top: 0px;
-	left:auto;
-	right:auto;
-	margin: 0;
-	background-image: url(Refresh.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-} */
-
 .menu {
 	width:500px;	margin-top: 20px;
 	margin-left: auto;	margin-right: auto;
    	text-align:center;	font-size: 20px;
-font-family:"FoundryGridnikW01-Medium Regular";
+	font-family:NeuronW03-Bold, 'Neuron W03 Bold';
+	letter-spacing: 1px;
     color: grey; text-decoration: none;
     text-transform: uppercase;
 }
@@ -80,22 +71,52 @@ video#bgvid {
 .im {
 	padding: 15px;
 	padding-top: 0px;
-	background-color: grey;
-	height: 100px;
-	width: 200px;
+	/* background-color:#ecfffa; */
+	background-color: red;
+	height: 183px;
+	width: 330px;
 	float:left;
+	background-position: center;
+	background-size: 100%;
+    background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-blend-mode: multiply;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
+
 }
 
-#container {
-	width: 30%;
+.im:hover {
+	background-size: 100%;
+	background-color: white;
+	-webkit-transition: background-color 400ms ease-in , background-size 300ms ease-out;
+}
+.im:hover p {
+-webkit-transition: margin-top 300ms ease-out, color 700ms ease-out;
+	margin-top: 55px;
+	color:whitesmoke;
+}
+.im:hover h1 {
+-webkit-transition: margin-top 500ms ease-out, color 200ms ease-out;
+	margin-top: 55px;
+		color: rgba(0, 255, 0, 0);
+}
+
+.im.wr {
+	background-image: url(img/spur.jpg);
+}
+.im.wt {
+	background-image: url(img/hunters.jpg);
+}.im.wy {
+	background-image: url(img/illustration.jpg);
+}.im.wu {
+	background-image: url(img/bronners.jpg);
+}
+
+#container  {
+	margin-top: 35px;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 }
-#container:hover {
-	-webkit-transition: all 1s;
-	width: 80%;
-	}
-

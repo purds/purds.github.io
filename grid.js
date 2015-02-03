@@ -8,3 +8,4 @@ $('#container').masonry()
   .masonry();
   
 $container.masonry('bindResize')
+feed.run();
