@@ -7,7 +7,7 @@ a {
 
 h1 {
 	font-size: 30px;
-	font-family: 'FoundryGridnik W01-Bold';
+	font-family: FoundryGridnikW01-Bold;
 	color: rgba(5, 255, 129, 50);
 }
 
@@ -77,10 +77,25 @@ video#bgvid {
 	margin-top: 40px;
 }
 
-.frameboy {
+.im {
 	padding: 15px;
 	padding-top: 0px;
 	background-color: grey;
-	width: 160px;
 	height: 100px;
+	width: 200px;
+	float:left;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
+
+#container {
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#container:hover {
+	-webkit-transition: all 1s;
+	width: 80%;
+	}
+
