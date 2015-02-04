@@ -1,6 +1,13 @@
 body {
   margin: 0;
-}
+          /*
+          -webkit-font-smoothing: subpixel antialiasing;
+           -webkit-transform: translateZ(0);
+           -moz-transform: translateZ(0);
+           -ms-transform: translateZ(0);
+           -o-transform: translateZ(0);
+           transform: translateZ(0);
+         */}
 a {
   text-decoration: none;
 }
@@ -23,11 +30,7 @@ p {
   color: rgba(0, 255, 0, 0);
 }
 
-.menu a {
-  padding-left: 10px;
-  padding-right: 10px;
 
-}
 
 .menu {
   width:500px;  margin-top: 20px;
@@ -39,6 +42,18 @@ p {
   text-transform: uppercase;
 }
 
+.menu p {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.menu p:hover {
+  padding-left: 20px;
+  padding-right: 20px;
+  transform: rotate(5deg);
+  -webkit-transform: rotate(5deg); /* Chrome, Safari, Opera */
+  -webkit-transition:all 100ms;
+  transition:all 100ms, ease-out; }
+
 .title {
   background-image: url(../img/jp.svg);
   /* background-color: grey; */
@@ -49,8 +64,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-top: 87px;
-  opacity: 0.6;
-}
+  opacity: 0.6; }
 
 video#bgvid {
   position: fixed; right: 0; bottom: 0;
@@ -61,8 +75,7 @@ video#bgvid {
   -webkit-filter: blur(30px);
   -moz-filter: blur(30px);
   filter: blur(30px);
-  opacity: 0.5;
-}
+  opacity: 0.5; }
 
 .reel {
   margin-left: auto;  margin-right: auto;
